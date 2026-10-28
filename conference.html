@@ -148,6 +148,17 @@ html[lang="zh"] .research-future h3{font-family:var(--sans)}
 @media(max-width:620px){.main-nav{grid-template-columns:repeat(2,minmax(0,1fr));font-size:11px}.main-nav a,.main-nav a[href="#research"],.main-nav a[href="index.html#research"]{white-space:normal;grid-column:auto}.main-nav a[href="conference.html"]{grid-column:1/-1}.research-general-intro{font-size:14px;line-height:1.85}.research-statement-card{grid-template-columns:1fr;gap:23px;padding-top:25px}.research-statement-card .research-visual{max-width:420px;margin-top:0}.research-card-content h3,.research-future h3{font-size:25px}}
 @media print{#research .research-grid{gap:20px}.research-statement-card{grid-template-columns:150px 1fr;gap:20px;break-inside:auto}.research-card-content h3,.research-future h3{font-size:14pt;break-after:avoid}.research-card-content>p,.research-card-content>p.statement-lead,.research-future>p,.research-general-intro{font-size:9pt;line-height:1.5}.research-future{margin-top:20px}.research-card-content p{orphans:3;widows:3}}
 
+/* Publications have their own page; the home page contains three sections. */
+.main-nav a[href="publications.html"]{background:var(--publications-color)}
+.publications-page{background:#eaf0f2}
+.publications-page .publications-section{border-top:0}
+.publications-page .section{padding-top:62px}
+.publications-page h1{font-family:var(--serif);font-size:44px;line-height:1.2;letter-spacing:-1px;color:var(--publications-color)}
+.publications-page .section-heading{margin-bottom:38px}
+html[lang="zh"] .publications-page h1{font-family:var(--sans);letter-spacing:0}
+@media(max-width:620px){.publications-page .section{padding-top:36px}.publications-page h1{font-size:32px;letter-spacing:-.5px}}
+@media print{.publications-page{background:white}.publications-page h1{font-size:24pt}}
+
 </style>
 </head>
 <body class="conference-page">
@@ -155,8 +166,8 @@ html[lang="zh"] .research-future h3{font-family:var(--sans)}
   <header class="site-header"><div class="header-inner"><nav aria-label="Main navigation" class="main-nav">
         <a href="index.html#background" data-en="Background" data-zh="学术经历">Background</a>
         <a href="index.html#research" data-en="Research Statement" data-zh="研究陈述">Research Statement</a>
-        <a href="index.html#publications" data-en="Publications" data-zh="学术论文">Publications</a>
         <a href="index.html#contact" data-en="Contact" data-zh="联系">Contact</a>
+        <a href="publications.html" data-en="Publications" data-zh="学术论文">Publications</a>
         <a href="conference.html" aria-current="page" data-en="Conference" data-zh="学术会议">Conference</a>
       </nav><button class="language-toggle" type="button" aria-label="Switch to Chinese">中文 <span aria-hidden="true">↗</span></button></div></header>
   <main id="main" class="page-width conference-main">
