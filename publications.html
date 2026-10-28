@@ -160,16 +160,30 @@ html[lang="zh"] .publications-page h1{font-family:var(--sans);letter-spacing:0}
 @media(max-width:620px){.publications-page .section{padding-top:36px}.publications-page h1{font-size:32px;letter-spacing:-.5px}}
 @media print{.publications-page{background:white}.publications-page h1{font-size:24pt}}
 
+/* Time horizons in the research plan. */
+.research-future-list{margin:0;padding-left:22px;color:var(--muted);font-size:14px;line-height:1.9}
+.research-future-list li+li{margin-top:14px}
+@media(max-width:760px){.research-future-list{font-size:13px}}
+@media print{.research-future-list{font-size:9pt;line-height:1.5}}
+
+/* Numbered navigation remains compact across all pages. */
+.main-nav{gap:10px;font-size:15px}
+.main-nav a{padding:12px 18px}
+@media(max-width:1180px){.header-inner{gap:14px}.main-nav{gap:8px;font-size:14px}.main-nav a{padding:11px 15px}}
+@media(max-width:1050px){.main-nav{font-size:13px;gap:7px}.main-nav a{padding:10px 11px}}
+@media(max-width:900px){.main-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.main-nav a{padding:9px 11px;text-align:center}.main-nav a[href="conference.html"]{grid-column:auto}}
+@media(max-width:620px){.main-nav{grid-template-columns:repeat(2,minmax(0,1fr));font-size:11px}.main-nav a{padding:8px 7px}.main-nav a[href="conference.html"]{grid-column:1/-1}}
+
 </style>
 </head>
 <body class="publications-page">
   <a class="skip-link" href="#main" data-en="Skip to content" data-zh="跳至正文">Skip to content</a>
   <header class="site-header"><div class="header-inner"><nav aria-label="Main navigation" class="main-nav">
-        <a href="index.html#background" data-en="Background" data-zh="学术经历">Background</a>
-        <a href="index.html#research" data-en="Research Statement" data-zh="研究陈述">Research Statement</a>
-        <a href="index.html#contact" data-en="Contact" data-zh="联系">Contact</a>
-        <a href="publications.html" aria-current="page" data-en="Publications" data-zh="学术论文">Publications</a>
-        <a href="conference.html" data-en="Conferences" data-zh="学术会议">Conferences</a>
+        <a href="index.html#background" data-en="01 Background" data-zh="01 学术经历">01 Background</a>
+        <a href="index.html#research" data-en="02 Research Statement" data-zh="02 研究陈述">02 Research Statement</a>
+        <a href="index.html#contact" data-en="03 Contact" data-zh="03 联系">03 Contact</a>
+        <a href="publications.html" aria-current="page" data-en="04 Publications" data-zh="04 学术论文">04 Publications</a>
+        <a href="conference.html" data-en="05 Conferences" data-zh="05 学术会议">05 Conferences</a>
       </nav><button class="language-toggle" type="button" aria-label="Switch to Chinese">中文 <span aria-hidden="true">↗</span></button></div></header>
   <main id="main"><section class="publications-section" id="publications" aria-labelledby="publications-heading"><div class="page-width section">
       <div class="section-heading"><div><p class="eyebrow section-number section-badge">04 / <span data-en="PUBLICATIONS" data-zh="学术论文">PUBLICATIONS</span></p><h1 id="publications-heading" data-en="Selected publications" data-zh="代表性论文">Selected publications</h1></div><p class="publication-total"><strong>11</strong><span data-en="selected works · 2020–2026" data-zh="篇代表性论文 · 2020–2026">selected works · 2020–2026</span></p></div>
